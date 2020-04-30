@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1=title
+
+  form(methor='POST', action='')
+    div.form-group 
+     label(for='first_name') First Name:
+     input#first_name.form-control(type='text',
+      placeholder='First Name',
+      name='first_name',
+      required='true',
+      value=(author === undefinded ? '' : author.first_name))
+     labe(for='family_name') Family Name: 
+     input#family_name.form-control(type='text',
+       placeholder='Family Name',
+       name='family_name',
+       required='true',
+       value=(author === undefinded ? '' : author.family_name))

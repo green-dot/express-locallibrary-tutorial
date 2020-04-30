@@ -1,0 +1,8 @@
+{
+  "connection-string": "mongodb+srv://system:<password>@taylorlocallibrary-ju9id.azure.mongodb.net/test?retryWrites=true&w=majority",
+  "username": "system",
+  "password": "admin",
+  "modified-connection-string": "mongodb+srv://system:admin@taylorlocallibrary-ju9id.azure.mongodb.net/local_library?retryWrites=true&w=majority",
+
+
+}
